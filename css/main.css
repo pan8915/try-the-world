@@ -1,0 +1,175 @@
+/*banner background image*/
+.background-image{
+  width: 100%;
+  text-align: center;
+  overflow:hidden;
+  position:absolute;
+  top: 0px;
+  height:100%;
+  max-height:750px;
+  z-index:-1;
+  background: url(https://cdn.shopify.com/s/files/1/0209/2570/files/brazil-banner-faded.jpg?2644079833930678608)no-repeat center center;
+}
+
+body{
+  background-color:#fff;
+  font-size:1em;
+  line-height:1;
+  font-family: 'Lato', sans-serif;
+  color:#686868;
+  text-align: center;
+  width:100%;
+  z-index:1;
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Lato', sans-serif;
+  text-rendering:optimizeLegibility;
+  letter-spacing:0.08em;
+  text-align: center;
+  margin:0px auto;
+  line-height:1em
+  display: block;
+  z-index:1;
+  }
+
+/*banner text style*/
+.banner {
+  position:relative;
+  height:320px;
+  padding-top:225px;
+  z-index:1;
+  margin:60px auto 40px;
+  max-width:730px;
+  top:28%;
+}
+.banner h3 {
+  font-size:2.5em;
+  font-weight:500;
+  color:#0acea8;
+  }
+
+.banner h2 {
+  font-size:4.8em;
+  font-weight:900;
+  color:#0acea8;
+  }
+
+/*green line text*/
+.mini-banner {
+  position:relative;
+  background-color:#0acea8;
+  height:65px;
+  width:100%;
+  margin:0px auto;
+  padding-top:35px;
+  z-index:2;
+}
+
+.mini-banner h5 {
+  font-size:1.3em;
+  font-weight:900;
+  margin:4px 35px 10px 35px;
+  color:#fff;
+}
+
+/*three products list*/
+.panel {
+  position:relative;
+  width:100%;
+  z-index:5;
+  background:#ddd;
+  padding:0 0 30px 0;
+  margin:0 auto;
+}
+
+.one-product {
+  display: inline-block;
+  margin:87px 3% 20px;
+  padding:40px 1.5% 20px;
+  width:350px;
+  max-width:400px;
+  vertical-align:top;
+  font-size:0.9em;
+  background-color: #fff;
+}
+
+.one-product img {
+  width:100%;
+}
+
+.one-product h4{
+  font-size:2.4em;
+  font-weight:900;
+}
+
+.green-text {
+  color:#0acea8;
+}
+
+.yellow-text {
+  color:#cdd17a;
+}
+
+.blue-text {
+  color:#00aaea;
+}
+
+.one-product p {
+  color:#686868;
+}
+
+/*color button link*/
+.button {
+  color: white;
+  font-family:"Lato", sans-serif;
+  font-size:0.8em;
+  font-weight:900;
+  letter-spacing:0.2em;
+  display:inline-block;
+  margin:50px auto 0px;
+  padding:16px 32px;
+  border:none;
+  outline:0;
+  text-decoration:none;
+  text-rendering:optimizeLegibility;
+}
+
+.green-button {
+  background-color:#0acea8;
+}
+
+.green-button:hover {
+  background:#00A07E;
+}
+
+.yellow-button {
+  background-color:#cdd17a;
+}
+
+.yellow-button:hover {
+  background:#8F9252;
+}
+
+.blue-button {
+  background-color:#00aaea;
+}
+
+.blue-button:hover {
+  background-color:#0086BC;
+}
+
+.red-button {
+  background-color:#ed4747;
+}
+
+.red-button:hover {
+  background-color:#A33232;
+}
+
+.mini-panel {
+  display: inline-block;
+  margin:0px;
+  width:100%;
+  position:relative;
+}
